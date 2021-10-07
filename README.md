@@ -8,7 +8,8 @@ A chrome extension that automatically enters the account and password into the w
 - 在 js/data.js 裡修改 Data 內容
   + key 為指定網址的關鍵詞
   + value 為一陣列，先放帳號再放密碼
-- 安裝進擴充功能即可使用
+- 安裝進擴充功能
+- 點擊插件後再點擊 Login 按鈕，即可自動填入帳號密碼
 
 ## 注意
 - 此方法並不保證帳號密碼的安全性，請自行斟酌
