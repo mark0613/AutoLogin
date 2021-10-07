@@ -1,3 +1,6 @@
+const Account = ["username", "user", "account", "name", "email", "nid", "login"];
+const Password = ["password", "pswd", "passwd", "pass", "pwd"];
+
 function checkUrl(url){
     for (key in Data){
         if (url.indexOf(key) != -1) return key;
