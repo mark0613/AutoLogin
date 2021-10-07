@@ -1,6 +1,6 @@
 # AutoLogin
 
-A chrome extension that automatically enters the account and password into the website of record.
+A chrome extension that automatically enters the account and password into the website.
 
 用於自動填入網頁的帳號密碼的 chrome extension
 
