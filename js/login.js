@@ -1,5 +1,6 @@
 const Account = ["username", "user", "account", "name", "email", "nid", "login"];
 const Password = ["password", "pswd", "passwd", "pass", "pwd"];
+const Type = ["text", "email", "password"];
 
 function checkUrl(url){
     for (key in Data){
@@ -24,7 +25,7 @@ function login(key){
     var account, password, tmp;
     
     for (let idx in input){
-        if (input[idx].name && (input[idx].type=="text" || input[idx].type=="password")){
+        if (input[idx].name && Type.includes(input[idx].type)){
             tmp = input[idx].name.toLowerCase();
             if (isAccount(tmp) && account===undefined) account = input[idx];
             if (isPassword(tmp) && password===undefined) password = input[idx];
